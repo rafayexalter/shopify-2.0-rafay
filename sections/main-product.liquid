@@ -110,7 +110,7 @@
               </div>
             {%- endif -%}
         
-        <button class="wishlist-inspire-laravel active">Wishlist</button>
+        <button class="wishlist-inspire-laravel" data-product="{{ product.id }}">Wishlist</button>
         
           {%- when 'custom_liquid' -%}
             {{ block.settings.custom_liquid }}
